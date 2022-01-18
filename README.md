@@ -14,8 +14,8 @@ O objetivo é projetar e implementar os serviços REST de um jogo de RPG baseado
 ## Serviços a Serem Implementados pelo Grupo
 
 - [/log](#log) - Este repositório
-- [/heroi](https://github.com/pgurjao/heroi-gen) 
-- [/ranking](#ranking)
+- [/heroi](https://github.com/pgurjao/heroi-gen#heroi)
+- [/ranking]()
 
 Veja o <b>`swagger`</b> desses serviços [aqui](https://github.com/pgurjao/heroi-gen/blob/master/src/main/resources/swagger/swaggerHeroi-Gen.yaml). Cole o conteúdo do swagger em [editor.swagger.io](https://editor.swagger.io/) para ver com a formatação.
 
