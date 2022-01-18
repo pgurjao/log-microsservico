@@ -4,7 +4,7 @@
 
 
 #### Prova Professor Leonardo Silva da Gloria
-#### Grupo: Eduardo Gaspar, Paulo Gurjão, William dos Santos Pereira<br><br>
+#### Grupo: Eduardo Gaspar, Paulo Gurjão, Pedro Queiroz, William dos Santos Pereira<br><br>
 
 
 ## Projeto de Bloco - Jogo RPG com Arquitetura em  Microserviços 
@@ -13,7 +13,7 @@ O objetivo é projetar e implementar os serviços REST de um jogo de RPG baseado
 
 ## Serviços a Serem Implementados pelo Grupo
 
-- [/log](#log) - Este repositório
+- [/log](#log) - este repositório
 - [/heroi](https://github.com/pgurjao/heroi-gen#heroi)
 - [/ranking]()
 
