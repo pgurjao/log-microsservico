@@ -20,7 +20,7 @@ pipeline {
             		echo 'Jar deletado com sucesso'
             		
             		echo 'Copiando .jar novo para pasta definitiva'
-            		sh 'cp /var/lib/jenkins/workspace/log/target/log-microsservico*.jar /home/ubuntu/log-microsservico/log.jar'
+            		sh 'cp /var/lib/jenkins/workspace/log/log-microsservico/target/log-microsservico*.jar /home/ubuntu/log-microsservico/log.jar'
             		echo 'Jar copiado com sucesso'
             		
             		echo 'Subindo instancia nova'
