@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'mvn -f pom.xml -DoutputDirectory=~/log -B -DskipTests clean package'
+                sh 'mvn -f pom.xml -DoutputDirectory=~/log/log-microsservico -B -DskipTests clean package'
                 
             }
         }
