@@ -27,8 +27,9 @@ public class SegurancaConfig extends WebSecurityConfigurerAdapter{
 			.csrf().disable()
 			
 			.authorizeRequests()
-			.antMatchers( HttpMethod.GET, "/ranking/")
+			.antMatchers("/log/**")
 			.permitAll()
+			
 			
 			.anyRequest().authenticated()
 			.and()
@@ -43,7 +44,7 @@ public class SegurancaConfig extends WebSecurityConfigurerAdapter{
 	public void configure(WebSecurity web) throws Exception {
 		web.ignoring().antMatchers(
 				"/h2-console/**"
-				,"/ranking/"
+				,"/log/**"
 				,"/heroi-gen/herois"
 				,"/heroi-gen/herois/{id}")
 		;
