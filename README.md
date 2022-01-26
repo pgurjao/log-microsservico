@@ -49,7 +49,7 @@ Exemplo:
 ```
 
 
-## Critérios de Avalição (pontuação aproximada atiginda até o momento: 6.5)
+## Critérios de Avalição (pontuação aproximada atiginda até o momento: 8.0)
 
 - [x] 1. ~~Implementar os serviços seguindo os padrões restfull: 2 pontos~~
 - [x] 2. ~~Receber configurações do servidor de configuração: 0.5 ponto~~
